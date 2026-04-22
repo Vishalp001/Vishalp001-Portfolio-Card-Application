@@ -1,0 +1,117 @@
+.portfolioCardContainer {
+  display: flex;
+  justify-content: center;
+}
+.portfolioCard {
+  width: 500px;
+  height: fit-content;
+  margin: auto auto;
+  border-radius: 16px;
+
+  padding: 30px 20px;
+}
+.bgDark {
+  background: #282828;
+  color: #fff;
+}
+.bgLight {
+  background: #ffffff;
+  color: #000;
+}
+.header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+.header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgb(16, 91, 251);
+}
+.name {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.tagline {
+  color: #a9acb2;
+  font-size: 16px;
+  font-weight: 500;
+}
+.desc {
+  color: #a9acb2;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.skillsHeading {
+  color: #8c919c;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* justify-content: space-around; */
+}
+.skills span {
+  border-radius: 36px;
+  background: #e6eef8;
+  color: #434958;
+  padding: 8px 12px;
+  font-size: 16px;
+}
+/* -----Footer Styling----- */
+.footer {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.lightDark svg {
+  font-size: 22px;
+  cursor: pointer;
+}
+.arrow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.arrow svg {
+  font-size: 25px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.arrow p {
+  color: #8c919c;
+  font-size: 14px;
+}
+.likeSection {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+}
+.likeSection svg {
+  cursor: pointer;
+}
+.contactButton .btn {
+  background: #2663eb;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  gap: 10px;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
